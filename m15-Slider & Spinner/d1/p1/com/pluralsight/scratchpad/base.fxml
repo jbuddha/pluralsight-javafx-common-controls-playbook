@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pluralsight.scratchpad.Controller">
+   <children>
+      <TextArea fx:id="log" editable="false" layoutX="277.0" layoutY="17.0" prefHeight="366.0" prefWidth="309.0" wrapText="true" />
+      <Slider fx:id="yearSlider" blockIncrement="1.0" layoutX="14.0" layoutY="17.0" majorTickUnit="1.0" max="2015.0" min="2000.0" minorTickCount="0" prefHeight="366.0" prefWidth="257.0" showTickLabels="true" showTickMarks="true" value="2000.0" />
+   </children>
+</AnchorPane>

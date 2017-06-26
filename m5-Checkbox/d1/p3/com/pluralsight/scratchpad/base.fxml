@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pluralsight.scratchpad.Controller">
+   <children>
+      <CheckBox layoutX="38.0" layoutY="135.0" mnemonicParsing="false" onAction="#changed" text="Football" />
+      <Label alignment="CENTER" layoutX="7.0" layoutY="6.0" prefHeight="50.0" prefWidth="587.0" text="Games you played">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="38.0" layoutY="179.0" mnemonicParsing="false" onAction="#changed" text="Hockey" />
+      <CheckBox layoutX="38.0" layoutY="225.0" mnemonicParsing="false" onAction="#changed" text="Cricket" />
+      <CheckBox layoutX="38.0" layoutY="269.0" mnemonicParsing="false" onAction="#changed" text="Chess" />
+      <Label fx:id="selectedGamesLabel" layoutX="253.0" layoutY="136.0" prefHeight="181.0" prefWidth="302.0" style="-fx-background-color: beige;" />
+      <Label layoutX="253.0" layoutY="111.0" text="Count: " />
+      <Label fx:id="selectedCountLabel" layoutX="313.0" layoutY="111.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pluralsight.scratchpad.Controller">
+   <children>
+      <MenuButton fx:id="continents" layoutX="182.0" layoutY="187.0" mnemonicParsing="false" text="Continent">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#onContinentChange" text="Asia" />
+            <MenuItem mnemonicParsing="false" onAction="#onContinentChange" text="Africa" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#onContinentChange" text="North America" />
+            <MenuItem mnemonicParsing="false" onAction="#onContinentChange" text="South America" />
+            <MenuItem mnemonicParsing="false" onAction="#onContinentChange" text="Europe" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#onContinentChange" text="Australia" />
+         </items></MenuButton>
+      <MenuButton fx:id="countries" layoutX="333.0" layoutY="187.0" mnemonicParsing="false" text="Country" />
+   </children>
+</AnchorPane>

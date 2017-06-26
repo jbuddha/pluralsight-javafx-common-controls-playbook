@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.HTMLEditor?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pluralsight.scratchpad.Controller">
+   <children>
+      <HTMLEditor fx:id="htmlEditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="200.0" prefWidth="600.0" />
+      <Button fx:id="getTextButton" layoutX="22.0" layoutY="211.0" mnemonicParsing="false" onAction="#onClick" text="GetText" />
+      <TextArea fx:id="log" layoutX="14.0" layoutY="264.0" prefHeight="129.0" prefWidth="569.0" wrapText="true" />
+      <Button layoutX="106.0" layoutY="211.0" mnemonicParsing="false" onAction="#getCleanTextClick" text="Get Clean Text" />
+   </children>
+</AnchorPane>

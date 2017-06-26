@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pluralsight.scratchpad.Controller">
+   <children>
+      <TextArea fx:id="log" editable="false" layoutX="280.0" layoutY="14.0" prefHeight="376.0" prefWidth="309.0" wrapText="true" />
+      <Spinner fx:id="yearSpinner" layoutX="59.0" layoutY="189.0" />
+   </children>
+</AnchorPane>
