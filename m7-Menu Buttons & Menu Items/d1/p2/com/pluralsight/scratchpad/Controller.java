@@ -45,7 +45,5 @@ public class Controller implements Initializable {
         countryMap.put("Europe", Arrays.asList("France", "Germany", "Switzerland"));
         countryMap.put("North America", Arrays.asList("Canada", "USA", "Mexico"));
         countryMap.put("South America", Arrays.asList("Brazil", "Chile"));
-
-
     }
 }
